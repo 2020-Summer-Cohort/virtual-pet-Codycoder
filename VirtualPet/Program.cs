@@ -57,7 +57,8 @@ namespace VirtualPet
 
                     case "4":
                         Console.WriteLine("Thanks for playing!");
-                            break;
+                        gamePlay = false;
+                        break;
 
                     default:
                         Console.WriteLine("Enter a number.");
